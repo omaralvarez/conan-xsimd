@@ -28,3 +28,6 @@ class XsimdConan(ConanFile):
 
     def package(self):
         return self.configured_cmake().install()
+    
+    def package_id(self):
+        self.info.header_only()
