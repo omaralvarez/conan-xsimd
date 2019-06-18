@@ -18,16 +18,18 @@ class XsimdConan(ConanFile):
     def source(self):
         self.run("git clone -b '%s' --single-branch --depth 1 %s" % (self.version, self.repo_url))
     
-    def configured_cmake(self):
+    def _configure_cmake(self):
         cmake = CMake(self)
         cmake.configure(source_folder="xsimd")
         return cmake
 
     def build(self):
-        return self.configured_cmake().build()
+        cmake = self._configure_cmake()
+        cmake.build()
 
     def package(self):
-        return self.configured_cmake().install()
+        cmake = self._configure_cmake()
+        cmake.install()
     
     def package_id(self):
         self.info.header_only()
