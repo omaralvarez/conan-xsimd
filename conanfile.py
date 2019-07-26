@@ -3,7 +3,7 @@ from conans import ConanFile, CMake, tools
 
 class XsimdConan(ConanFile):
     name = "xsimd"
-    version = "7.2.4"
+    version = "7.2.5"
     license = "BSD 3-Clause"
     #author = "<Put your name here> <And your email here>"
     url = "https://github.com/omaralvarez/conan-xsimd"
