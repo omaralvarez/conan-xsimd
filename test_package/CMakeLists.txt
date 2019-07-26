@@ -6,6 +6,8 @@ if(NOT CMAKE_BUILD_TYPE)
 endif()
 
 include(CheckCXXCompilerFlag)
+include(${CMAKE_BINARY_DIR}/conanbuildinfo.cmake)
+conan_basic_setup()
 
 set(CMAKE_CXX_STANDARD 14)
 
@@ -22,9 +24,6 @@ endif()
 set(CMAKE_CXX_FLAGS_RELEASE "-O3")
 
 find_package(OpenMP REQUIRED) # Find the package
-
-include(${CMAKE_BINARY_DIR}/conanbuildinfo.cmake)
-conan_basic_setup()
 
 add_executable(example example.cpp)
 target_link_libraries(example ${CONAN_LIBS} ${OpenMP_CXX_LIBRARIES})
