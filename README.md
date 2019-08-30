@@ -1,10 +1,12 @@
+[ ![Download](https://api.bintray.com/packages/omaralvarez/public-conan/xsimd%3Aomaralvarez/images/download.svg?version=7.2.6%3Apublic-conan) ](https://bintray.com/omaralvarez/public-conan/xsimd%3Aomaralvarez/7.2.6%3Apublic-conan/link)
+
 # conan-xsimd
     
 ## Reuse the packages
 
 ### Basic setup
 
-    $ conan install xsimd/7.2.5@omaralvarez/public-conan
+    $ conan install xsimd/7.2.6@omaralvarez/public-conan
 
 ### Package basic test
     $ conan create . username/bintray-repo
@@ -16,7 +18,7 @@
 * A sample from `conanfile.txt` in the root directory:
 ```
 [requires]
-xsimd/7.2.5@omaralvarez/public-conan
+xsimd/7.2.6@omaralvarez/public-conan
 ...
 
 [generators]
