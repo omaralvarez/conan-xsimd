@@ -1,4 +1,4 @@
-[ ![Download](https://api.bintray.com/packages/omaralvarez/public-conan/xsimd%3Aomaralvarez/images/download.svg?version=7.2.6%3Apublic-conan) ](https://bintray.com/omaralvarez/public-conan/xsimd%3Aomaralvarez/7.2.6%3Apublic-conan/link)
+[ ![Download](https://api.bintray.com/packages/omaralvarez/public-conan/xsimd%3Aomaralvarez/images/download.svg?version=7.4.0%3Apublic-conan) ](https://bintray.com/omaralvarez/public-conan/xsimd%3Aomaralvarez/7.4.0%3Apublic-conan/link)
 
 # conan-xsimd
     
