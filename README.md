@@ -6,7 +6,7 @@
 
 ### Basic setup
 
-    $ conan install xsimd/7.2.6@omaralvarez/public-conan
+    $ conan install xsimd/7.3.0@omaralvarez/public-conan
 
 ### Package basic test
     $ conan create . username/bintray-repo
@@ -18,7 +18,7 @@
 * A sample from `conanfile.txt` in the root directory:
 ```
 [requires]
-xsimd/7.2.6@omaralvarez/public-conan
+xsimd/7.3.0@omaralvarez/public-conan
 ...
 
 [generators]
