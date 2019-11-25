@@ -3,7 +3,7 @@ from conans import ConanFile, CMake, tools
 
 class XsimdConan(ConanFile):
     name = "xsimd"
-    version = "7.4.0"
+    version = "7.4.1"
     license = "BSD 3-Clause"
     #author = "<Put your name here> <And your email here>"
     url = "https://github.com/omaralvarez/conan-xsimd"
@@ -16,7 +16,7 @@ class XsimdConan(ConanFile):
     no_copy_source = True
 
     def source(self):
-        self.run("git clone -b '%s' --single-branch --depth 1 %s" % (self.version, self.repo_url))
+        self.run("git clone -b %s --single-branch --depth 1 %s" % (self.version, self.repo_url))
     
     def _configure_cmake(self):
         cmake = CMake(self)
