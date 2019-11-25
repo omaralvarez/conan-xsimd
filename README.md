@@ -1,4 +1,4 @@
-[ ![Download](https://api.bintray.com/packages/omaralvarez/public-conan/xsimd%3Aomaralvarez/images/download.svg?version=7.4.0%3Apublic-conan) ](https://bintray.com/omaralvarez/public-conan/xsimd%3Aomaralvarez/7.4.0%3Apublic-conan/link)
+[ ![Download](https://api.bintray.com/packages/omaralvarez/public-conan/xsimd%3Aomaralvarez/images/download.svg?version=7.4.1%3Apublic-conan) ](https://bintray.com/omaralvarez/public-conan/xsimd%3Aomaralvarez/7.4.1%3Apublic-conan/link)
 
 # conan-xsimd
     
@@ -6,7 +6,7 @@
 
 ### Basic setup
 
-    $ conan install xsimd/7.4.0@omaralvarez/public-conan
+    $ conan install xsimd/7.4.1@omaralvarez/public-conan
 
 ### Package basic test
     $ conan create . username/bintray-repo
@@ -18,7 +18,7 @@
 * A sample from `conanfile.txt` in the root directory:
 ```
 [requires]
-xsimd/7.4.0@omaralvarez/public-conan
+xsimd/7.4.1@omaralvarez/public-conan
 ...
 
 [generators]
